@@ -1,0 +1,129 @@
+.contact {
+    padding-top: 65px;
+    .address-main {
+        text-align: center;
+        padding-bottom: 20px;
+        h3 {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+        .address-item {
+            ul {
+                li {
+                    display: inline-flex;
+                    margin-right: 35px;
+                    line-height: 14px;
+                    font-size: 16px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                    i {
+                        padding-right: 10px;
+                        color: #575757;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .conact-bg-image {
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: top;
+        width: 100%;
+        background-size: cover;
+        &::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.7;
+        }
+        .contact-form {
+            text-align: center;
+            position: relative;
+            z-index: 9;
+            h6 {
+                padding-top: 60px;
+                font-size: 30px;
+                color: #fff;
+            }
+            .contact-form-main {
+                margin-bottom: 80px;
+                .field-row {
+                    width: 100%;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    padding-top: 50px;
+                    .input-item-one {
+                        width: 50%;
+                        display: inline-flex;
+                    }
+                    .input-item-two {
+                        width: 50%;
+                        display: inline-flex;
+                    }
+                    .input-box {
+                        input {
+                            width: 310px;
+                            border: none;
+                            border-bottom: 1px solid#bbb3b3;
+                            background-color: transparent;
+                            caret-color: #bbb3b3;
+                            height: 30px;
+                        }
+                        input:focus {
+                            color: #bbb3b3;
+                        }
+                    }
+                    span {
+                        color: #bbb3b3;
+                        padding-right: 5px;
+                    }
+                }
+                .message-field-row {
+                    width: 100%;
+                    display: inline-flex;
+                    padding-top: 40px;
+                    span {
+                        color: #bbb3b3;
+                        padding-right: 5px;
+                    }
+                    .input-box {
+                        textarea {
+                            width: 650px;
+                            border: none;
+                            border-bottom: 1px solid#bbb3b3;
+                            background-color: transparent;
+                            caret-color: #bbb3b3;
+                            height: 30px;
+                            resize: none;
+                            // -webkit-pointer-events: none;
+                            // pointer-events: none;
+                        }
+                        textarea:focus {
+                            color: #bbb3b3;
+                        }
+                    }
+                }
+                .contact-button {
+                    text-align: center;
+                    margin-top: 85px;
+                    button {
+                        padding: 20px 140px;
+                        font-size: 25px;
+                        color: #fff;
+                        font-weight: 600;
+                        border: none;
+                        background-color: #ffa200;
+                    }
+                }
+            }
+        }
+    }
+}

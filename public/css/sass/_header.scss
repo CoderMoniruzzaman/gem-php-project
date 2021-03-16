@@ -1,0 +1,56 @@
+.header {
+    .head-top {
+        height: 40px;
+        border-bottom: 1px solid #d0d0d0;
+        .header-social {
+            span {
+                padding-right: 15px;
+                line-height: 40px;
+                a {
+                    color: #959595;
+                }
+            }
+        }
+        .head-contact {
+            float: right;
+            span {
+                line-height: 40px;
+                a {
+                    color: #959595;
+                }
+            }
+        }
+    }
+    .navbar {
+        background-color: transparent!important;
+        padding: 30px 0px 30px 0px;
+        margin: 0px;
+        .navbar-brand {
+            img {
+                max-width: 120px;
+                width: 100px;
+            }
+        }
+        .navbar-nav {
+            .active {
+                .nav-link {
+                    color: #fdb962;
+                    position: relative;
+                }
+                .nav-link::after {
+                    position: absolute;
+                    content: '';
+                    bottom: 5px;
+                    left: 10px;
+                    width: 43px;
+                    height: 1px;
+                    background-color: #fdb962;
+                }
+            }
+            .nav-item {
+                text-transform: uppercase;
+                color: #959595;
+            }
+        }
+    }
+}

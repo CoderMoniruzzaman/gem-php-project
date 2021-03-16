@@ -1,0 +1,71 @@
+#testimonial {
+    .bg {
+        background-color: #f7e4c4;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .client-head {
+            text-align: center;
+            h3 {
+                font-size: 30px;
+                font-weight: 500;
+            }
+        }
+        .client-slider {
+            position: relative;
+            .client-slider-inner {
+                text-align: center;
+                .slider-content {
+                    .image {
+                        padding-top: 35px;
+                        img {
+                            text-align: center;
+                            max-width: 120px;
+                            width: 120px;
+                            height: 120px;
+                            border-radius: 50%;
+                            border: 3px solid #fff;
+                            display: inline-block;
+                            -webkit-box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, 0.09);
+                            box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, 0.09);
+                        }
+                    }
+                    p {
+                        padding: 25px 135px 30px 135px;
+                        line-height: 28px;
+                        font-style: italic;
+                    }
+                    .name-client {
+                        color: #eb3751;
+                        font-size: 18px;
+                        font-weight: 700;
+                        span {
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            }
+            .left_arrow {
+                position: absolute;
+                left: 40px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                z-index: 99;
+                color: #9b9894;
+                font-size: 60px;
+                cursor: pointer;
+            }
+            .right_arrow {
+                position: absolute;
+                right: 40px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                z-index: 99;
+                color: #9b9894;
+                font-size: 60px;
+                cursor: pointer;
+            }
+        }
+    }
+}
